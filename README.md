@@ -1,27 +1,12 @@
-# DeepAMP: Hybrid Transformer-CNN-LSTM for Antimicrobial Peptide Prediction
+# Explainable Transformer Model for Antimicrobial Peptide Prediction: The AI4AMP Framework
 
 A deep learning pipeline for predicting antimicrobial peptides (AMPs) using physicochemical (PC6) encoding and a hybrid Transformer+CNN+LSTM neural network architecture.
 
 ---
 
-## Table of Contents
-
-1. [Project Overview](#project-overview)
-2. [Architecture & Methodology](#architecture--methodology)
-3. [Project Structure](#project-structure)
-4. [Installation & Setup](#installation--setup)
-5. [Quick Start](#quick-start)
-6. [Training Pipeline](#training-pipeline)
-7. [Prediction & Evaluation](#prediction--evaluation)
-8. [File Descriptions](#file-descriptions)
-9. [Key Hyperparameters](#key-hyperparameters)
-10. [Troubleshooting](#troubleshooting)
-
----
-
 ## Project Overview
 
-**DeepAMP** is a machine learning system designed to identify antimicrobial peptides from protein sequences. It combines:
+**Explainable AMP Transformer** is a machine learning system designed to identify antimicrobial peptides from protein sequences. It combines:
 
 - **PC6 Encoding**: A physicochemical property-based representation of amino acids using 6 properties (Hydrophobicity, Volume, Polarity, Polarizability, pKa, Net Charge Index).
 - **Hybrid Deep Learning Model**: A stack of CNN (feature extraction), Transformer (attention-based pattern learning), and LSTM (temporal sequence modeling) layers.
@@ -136,7 +121,7 @@ Trained Model + Checkpoints
 ## Project Structure
 
 ```
-d:\DeepAMP - Copy/
+d:\Explainable AMP Transformer/
 ├── README.md                          # This file
 ├── code/
 │   ├── Protein_Encoding.py            # PC6 amino acid encoding
@@ -183,7 +168,7 @@ d:\DeepAMP - Copy/
 ### Step 1: Create Virtual Environment
 
 ```powershell
-cd "D:\DeepAMP - Copy"
+cd "D:\Explainable AMP Transformer"
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 ```
@@ -519,40 +504,5 @@ This project builds on:
 - **Physicochemical properties**: Ippel et al. (1992); Sandberg et al. (1998)
 - **Antimicrobial peptide research**: Historical work in computational proteomics
 
----
-
-## License & Contact
-
-- **License:** [Specify your license here]
-- **Author:** [Your name/group]
-- **Last Updated:** November 15, 2025
 
 ---
-
-## Quick Reference: Common Commands
-
-```powershell
-# Activate venv
-.\venv\Scripts\Activate.ps1
-
-# Train model
-cd code
-python train_hybrid_transformer.py -f train_positive.fasta -l Data/labels_train.csv -o .\models
-
-# Predict
-cd ..
-python .\PC6\PC6_predictor.py -f .\test\example.fasta -o .\test\predictions.csv
-
-# Evaluate
-python .\PC6\evaluate_model.py -f .\test\example.fasta -l .\test\labels_train.csv
-
-# Diagnose
-python .\PC6\diagnose_predictor.py -f .\test\example.fasta
-
-# Deactivate venv
-deactivate
-```
-
----
-
-**End of README**
