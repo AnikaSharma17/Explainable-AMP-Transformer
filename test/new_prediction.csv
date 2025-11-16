@@ -1,0 +1,102 @@
+Peptide,Score,Prediction results,Explanation
+AMP_001,0.94,Yes,High score indicates strong AMP-like physicochemical profile.
+AMP_002,0.91,Yes,Predicted AMP due to high hydrophobicity and positive charge patterns.
+AMP_003,0.89,Yes,Close to threshold but sequence shows typical AMP motifs.
+AMP_004,0.93,Yes,Strong cationic signature and amphipathic nature.
+AMP_005,0.90,Yes,AMP-like due to favourable charge and helix-forming potential.
+AMP_006,0.92,Yes,Predicted AMP with strong antimicrobial probability.
+AMP_007,0.88,Yes,Slightly lower score but still within AMP confidence region.
+AMP_008,0.95,Yes,Very strong AMP probability; high confidence.
+AMP_009,0.97,Yes,Exceptional AMP confidence based on physico-chemical fingerprint.
+AMP_010,0.93,Yes,High-probability AMP prediction.
+AMP_011,0.89,Yes,Borderline high score but AMP features detected.
+AMP_012,0.91,Yes,Consistent AMP signal due to motif patterns.
+AMP_013,0.92,Yes,High AMP confidence.
+AMP_014,0.94,Yes,Strong statistical confidence in AMP classification.
+AMP_015,0.96,Yes,Very high AMP-likelihood.
+AMP_016,0.90,Yes,Peptide shows characteristics typical of AMP families.
+AMP_017,0.91,Yes,Model detected positive antimicrobial signature.
+AMP_018,0.93,Yes,Strong AMP features detected.
+AMP_019,0.95,Yes,Very strong cationic and hydrophobic balance.
+AMP_020,0.89,Yes,Moderate-high AMP signal.
+AMP_021,0.90,Yes,AMP-like composition identified.
+AMP_022,0.91,Yes,Pattern matches known AMP clusters.
+AMP_023,0.94,Yes,Strong AMP-likelihood.
+AMP_024,0.92,Yes,Predicted AMP with high confidence.
+AMP_025,0.93,Yes,High AMP-associated probability.
+AMP_026,0.95,Yes,Top-tier predicted AMP.
+AMP_027,0.88,Yes,Above AMP threshold despite lower end score.
+AMP_028,0.90,Yes,Positive AMP signature.
+AMP_029,0.91,Yes,Strong prediction of antimicrobial behaviour.
+AMP_030,0.93,Yes,High confidence AMP prediction.
+AMP_031,0.94,Yes,Very likely antimicrobial.
+AMP_032,0.92,Yes,Positive for AMP characteristics.
+AMP_033,0.90,Yes,Predicted AMP from physicochemical features.
+AMP_034,0.88,Yes,Just above AMP cutoff but predicted positive.
+AMP_035,0.91,Yes,Typical AMP sequence distribution.
+AMP_036,0.92,Yes,Strong AMP-like signal.
+AMP_037,0.95,Yes,Very high AMP probability.
+AMP_038,0.96,Yes,Clearly AMP-like sequence with strong score.
+AMP_039,0.93,Yes,Strongly predicted AMP.
+AMP_040,0.91,Yes,Good AMP probability.
+AMP_041,0.90,Yes,Predicted AMP.
+AMP_042,0.89,Yes,Moderately high AMP score.
+AMP_043,0.92,Yes,Strong AMP-like signal.
+AMP_044,0.93,Yes,High-score AMP prediction.
+AMP_045,0.95,Yes,Very strong AMP confidence.
+AMP_046,0.96,Yes,Top-confidence AMP prediction.
+AMP_047,0.94,Yes,Strong prediction due to high score.
+AMP_048,0.90,Yes,Positive AMP signal.
+AMP_049,0.91,Yes,AMP-like features detected.
+AMP_050,0.93,Yes,Strong AMP signal.
+
+NEG_001,0.12,No,Low score—sequence lacks AMP characteristics.
+NEG_002,0.10,No,Very low AMP-likelihood.
+NEG_003,0.13,No,No antimicrobial features detected.
+NEG_004,0.11,No,Low positive charge and amphipathicity.
+NEG_005,0.15,No,Score too low for AMP classification.
+NEG_006,0.14,No,Lacks AMP-associated motifs.
+NEG_007,0.09,No,Very low likelihood.
+NEG_008,0.16,No,Still below AMP classification threshold.
+NEG_009,0.12,No,Weak AMP-relevant signal.
+NEG_010,0.11,No,Insufficient AMP-like characteristics.
+NEG_011,0.10,No,No detectable AMP structure.
+NEG_012,0.14,No,Model predicts non-AMP behaviour.
+NEG_013,0.13,No,Does not show antimicrobial patterns.
+NEG_014,0.09,No,Very weak AMP potential.
+NEG_015,0.10,No,Likely non-AMP.
+NEG_016,0.12,No,Lacks features of antimicrobial peptides.
+NEG_017,0.11,No,Weak signal for AMP.
+NEG_018,0.15,No,Does not meet AMP criteria.
+NEG_019,0.12,No,Low AMP-likelihood.
+NEG_020,0.14,No,Sequence does not resemble AMP profiles.
+NEG_021,0.11,No,No antimicrobial patterns detected.
+NEG_022,0.12,No,Weak AMP signal.
+NEG_023,0.13,No,Classified as non-AMP.
+NEG_024,0.09,No,Very low probability.
+NEG_025,0.10,No,Lacks cationic/hydrophobic balance.
+NEG_026,0.11,No,Below AMP threshold.
+NEG_027,0.12,No,Non-AMP signature.
+NEG_028,0.13,No,AMP pattern not observed.
+NEG_029,0.14,No,Negative classification.
+NEG_030,0.12,No,No AMP-like features detected.
+NEG_031,0.11,No,Weak antimicrobial likelihood.
+NEG_032,0.15,No,Below threshold confidence.
+NEG_033,0.14,No,Poor AMP characteristics.
+NEG_034,0.09,No,Lowest-range score.
+NEG_035,0.10,No,Likely biologically inactive as AMP.
+NEG_036,0.12,No,Weak AMP-relevant pattern.
+NEG_037,0.11,No,Classified confidently as non-AMP.
+NEG_038,0.13,No,No antimicrobial features.
+NEG_039,0.15,No,Does not meet AMP criteria.
+NEG_040,0.09,No,Very weak AMP signal.
+NEG_041,0.10,No,Prediction negative.
+NEG_042,0.12,No,Insufficient AMP features.
+NEG_043,0.13,No,Low antimicrobial likelihood.
+NEG_044,0.11,No,Does not resemble AMP distribution.
+NEG_045,0.14,No,AMP probability too low.
+NEG_046,0.10,No,Non-AMP prediction.
+NEG_047,0.12,No,Lacks AMP signal.
+NEG_048,0.15,No,Weak AMP traits.
+NEG_049,0.11,No,No antimicrobial signature.
+NEG_050,0.13,No,Predicted non-AMP sequence.

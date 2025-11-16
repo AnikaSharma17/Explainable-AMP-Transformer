@@ -1,0 +1,86 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pickle
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+
+# -----------------------
+# Virtual Environment
+# -----------------------
+venv/
+env/
+.idea/
+.vscode/
+
+# -----------------------
+# Model Files & Checkpoints
+# -----------------------
+*.h5
+*.hdf5
+*.keras
+*.pth
+*.pt
+*.ckpt
+*.sav
+
+# -----------------------
+# Logs & Outputs
+# -----------------------
+logs/
+*.log
+*.out
+*.tmp
+
+# -----------------------
+# Data Files
+# -----------------------
+*.csv
+*.tsv
+*.xlsx
+*.npy
+*.npz
+
+# Allow test sample CSVs
+!test/example_output.csv
+!test/new_prediction.csv
+!test/predictions.csv
+!test/labels.csv
+
+# FASTA sequences
+*.fasta
+!test/example.fasta
+
+# Shell scripts
+*.sh
+
+# -----------------------
+# System Files
+# -----------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------
+# Build / Packaging
+# -----------------------
+build/
+dist/
+*.egg-info/
+
+# -----------------------
+# Jupyter Notebooks
+# -----------------------
+.ipynb_checkpoints/
+
+# -----------------------
+# Cache
+# -----------------------
+.cache/
